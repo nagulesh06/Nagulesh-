@@ -1,0 +1,42 @@
+10. Find the GCD of Two Numbers Using the Euclidean Algorithm
+
+Algorithm:
+	1.	Start
+	2.	Input: Read two integers, a and b, from the user.
+	3.	Process:
+	•	While b is not equal to 0:
+	•	Compute the remainder r of a divided by b.
+	•	Set a to b and b to r.
+	4.	Output: The value of a is the GCD of the two numbers.
+	5.	End
+
+Pseudocode:
+
+BEGIN
+    INPUT a, b  // Read two integers from the user
+
+    WHILE b ≠ 0 DO
+        r ← a MOD b  // Compute remainder of a divided by b
+        a ← b        // Set a to b
+        b ← r        // Set b to remainder
+    END WHILE
+
+    PRINT "GCD is: ", a  // Output the GCD
+END
+
+Flowchart Description:
+	1.	Start
+	2.	Input: Prompt the user to enter two integers, a and b.
+	3.	Process:
+	•	Decision: Is b equal to 0?
+	•	Yes: Proceed to step 4.
+	•	No:
+	•	Compute r = a MOD b.
+	•	Set a = b and b = r.
+	•	Repeat from step 3.
+	4.	Output: Display the value of a as the GCD.
+	5.	End
+
+For a visual representation of this flowchart, you can refer to the following video:
+
+How to Find the Greatest Common Divisor by Using the Euclidean Algorithm
