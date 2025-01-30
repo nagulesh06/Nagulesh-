@@ -1,0 +1,44 @@
+7. Number Guessing Game
+
+Algorithm:
+	1.	Start
+	2.	Generate a random number target between 1 and 100
+	3.	Repeat:
+	•	Prompt the user to input a guess
+	•	If guess == target, print “Correct! You guessed it!” and exit
+	•	If guess < target, print “Too low! Try again.”
+	•	If guess > target, print “Too high! Try again.”
+	4.	End
+
+Pseudocode:
+
+BEGIN
+    target ← RANDOM(1, 100)
+    
+    REPEAT
+        PRINT "Enter your guess:"
+        INPUT guess
+        
+        IF guess = target THEN
+            PRINT "Correct! You guessed it!"
+            EXIT
+        ELSE IF guess < target THEN
+            PRINT "Too low! Try again."
+        ELSE
+            PRINT "Too high! Try again."
+        END IF
+    UNTIL guess = target
+
+END
+
+Flowchart Description:
+	1.	Start
+	2.	Generate a random number (target) between 1 and 100
+	3.	Loop:
+	•	Input the user’s guess
+	•	If the guess is correct, print success message and exit
+	•	If the guess is too low, print “Too low! Try again.”
+	•	If the guess is too high, print “Too high! Try again.”
+	4.	End
+
+Would you like a graphical flowchart for this?
