@@ -1,0 +1,64 @@
+Factorial Using Recursion
+
+Algorithm:
+	1.	Start
+	2.	Input n
+	3.	Define a recursive function factorial(num):
+	•	If num = 0 or 1, return 1
+	•	Else return num * factorial(num - 1)
+	4.	Call factorial(n) and print the result
+	5.	End
+
+Pseudocode:
+
+FUNCTION factorial(num)
+    IF num = 0 OR num = 1 THEN
+        RETURN 1
+    ELSE
+        RETURN num * factorial(num - 1)
+    END IF
+END FUNCTION
+
+BEGIN
+    INPUT n
+    result ← factorial(n)
+    PRINT result
+END
+
+Flowchart:
+
++----------------------+
+| Start               |
++----------------------+
+        |
+        v
++----------------------+
+| Input n             |
++----------------------+
+        |
+        v
++----------------------+
+| Call factorial(n)   |
++----------------------+
+        |
+        v
++----------------------+
+| Function factorial  |
+| IF num = 0 or 1     |
+|    Return 1         |
+| ELSE                |
+|    Return num *     |
+|    factorial(num-1) |
++----------------------+
+        |
+        v
++----------------------+
+| Print result        |
++----------------------+
+        |
+        v
++----------------------+
+| End                 |
++----------------------+
+
+Would you like me to generate a graphical flowchart image for this?
