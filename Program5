@@ -1,0 +1,45 @@
+Simple Interest Calculation
+
+Algorithm:
+	1.	Start
+	2.	Input P (Principal amount), R (Rate of interest), and T (Time in years)
+	3.	Calculate SI = (P × R × T) / 100
+	4.	Print SI
+	5.	End
+
+Pseudocode:
+
+BEGIN
+    INPUT P, R, T
+    SI ← (P * R * T) / 100
+    PRINT SI
+END
+
+Flowchart:
+
++----------------------+
+| Start               |
++----------------------+
+        |
+        v
++----------------------+
+| Input P, R, T       |
++----------------------+
+        |
+        v
++----------------------+
+| Calculate SI        |
+| SI = (P * R * T) /100 |
++----------------------+
+        |
+        v
++----------------------+
+| Print SI            |
++----------------------+
+        |
+        v
++----------------------+
+| End                 |
++----------------------+
+
+Would you like a graphical flowchart image for this?
