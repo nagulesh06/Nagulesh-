@@ -1,0 +1,79 @@
+Generating Fibonacci Series
+
+Algorithm:
+	1.	Start
+	2.	Input n (number of terms)
+	3.	Initialize a = 0, b = 1
+	4.	Print a and b
+	5.	Loop from i = 3 to n:
+	•	Compute c = a + b
+	•	Print c
+	•	Update a = b, b = c
+	6.	End
+
+Pseudocode:
+
+BEGIN
+    INPUT n
+    a ← 0
+    b ← 1
+    
+    PRINT a
+    PRINT b
+    
+    FOR i ← 3 TO n DO
+        c ← a + b
+        PRINT c
+        a ← b
+        b ← c
+    END FOR
+END
+
+Flowchart:
+
++----------------------+
+| Start               |
++----------------------+
+        |
+        v
++----------------------+
+| Input n             |
++----------------------+
+        |
+        v
++----------------------+
+| Initialize a = 0,   |
+| b = 1              |
++----------------------+
+        |
+        v
++----------------------+
+| Print a, b         |
++----------------------+
+        |
+        v
++----------------------+
+| Loop i = 3 to n    |
++----------------------+
+        |
+        v
++----------------------+
+| c = a + b          |
++----------------------+
+        |
+        v
++----------------------+
+| Print c            |
++----------------------+
+        |
+        v
++----------------------+
+| Update a = b, b = c|
++----------------------+
+        |
+        v
++----------------------+
+| End                 |
++----------------------+
+
+Would you like a graphical flowchart image for this?
