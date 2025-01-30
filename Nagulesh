@@ -1,0 +1,59 @@
+1. Algorithm to Calculate Sum of Even Numbers
+
+Algorithm:
+	1.	Start
+	2.	Input n
+	3.	Initialize sum = 0
+	4.	Loop from i = 2 to n with step 2:
+	•	Add i to sum
+	5.	Print sum
+	6.	End
+
+Pseudocode:
+
+BEGIN
+    INPUT n
+    sum ← 0
+    FOR i ← 2 TO n STEP 2 DO
+        sum ← sum + i
+    END FOR
+    PRINT sum
+END
+
+Flowchart:
+
++----------------+
+| Start         |
++----------------+
+        |
+        v
++----------------+
+| Input n       |
++----------------+
+        |
+        v
++----------------+
+| sum ← 0       |
++----------------+
+        |
+        v
++------------------------+
+| i ← 2 to n, step 2    |
++------------------------+
+        |
+        v
++----------------+
+| sum ← sum + i |
++----------------+
+        |
+        v
++----------------+
+| Print sum     |
++----------------+
+        |
+        v
++----------------+
+| End           |
++----------------+
+
+Would you like me to create a graphical flowchart image for this?
