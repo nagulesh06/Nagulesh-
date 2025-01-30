@@ -1,0 +1,41 @@
+9. Count Vowels in a String
+
+Algorithm:
+	1.	Start
+	2.	Input: Read the string s from the user.
+	3.	Initialize: Set vowel_count = 0.
+	4.	Process: Loop through each character ch in the string s:
+	•	If ch is a vowel (i.e., ‘a’, ‘e’, ‘i’, ‘o’, ‘u’ or their uppercase counterparts), increment vowel_count by 1.
+	5.	Output: Display the value of vowel_count.
+	6.	End
+
+Pseudocode:
+
+BEGIN
+    INPUT s  // Read the string from the user
+    vowel_count ← 0  // Initialize vowel count
+
+    FOR each character ch IN s DO
+        IF ch IS 'a' OR ch IS 'e' OR ch IS 'i' OR ch IS 'o' OR ch IS 'u' OR
+           ch IS 'A' OR ch IS 'E' OR ch IS 'I' OR ch IS 'O' OR ch IS 'U' THEN
+            vowel_count ← vowel_count + 1
+        END IF
+    END FOR
+
+    PRINT "Number of vowels: ", vowel_count
+END
+
+Flowchart:
+	1.	Start
+	2.	Input: Prompt the user to enter a string s.
+	3.	Initialize: Set vowel_count = 0.
+	4.	Process: Loop through each character ch in the string s:
+	•	Decision: Is ch a vowel?
+	•	Yes: Increment vowel_count by 1.
+	•	No: Continue to the next character.
+	5.	Output: Display the value of vowel_count.
+	6.	End
+
+For a visual representation of this flowchart, you can refer to the following video:
+
+Flowchart to Count Vowels in a String
