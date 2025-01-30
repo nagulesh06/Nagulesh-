@@ -1,0 +1,86 @@
+Finding the Largest Number in an Array
+
+Algorithm:
+	1.	Start
+	2.	Input n (number of elements)
+	3.	Declare an array of size n
+	4.	Input n elements into the array
+	5.	Set max = array[0]
+	6.	Loop through the array from index 1 to n-1:
+	•	If array[i] > max, update max = array[i]
+	7.	Print max
+	8.	End
+
+Pseudocode:
+
+BEGIN
+    INPUT n
+    DECLARE array[n]
+    
+    FOR i ← 0 TO n-1 DO
+        INPUT array[i]
+    END FOR
+    
+    max ← array[0]
+    
+    FOR i ← 1 TO n-1 DO
+        IF array[i] > max THEN
+            max ← array[i]
+        END IF
+    END FOR
+    
+    PRINT max
+END
+
+Flowchart:
+
++----------------------+
+| Start               |
++----------------------+
+        |
+        v
++----------------------+
+| Input n             |
++----------------------+
+        |
+        v
++----------------------+
+| Declare array[n]    |
++----------------------+
+        |
+        v
++----------------------+
+| Input array elements|
++----------------------+
+        |
+        v
++----------------------+
+| max ← array[0]      |
++----------------------+
+        |
+        v
++----------------------+
+| Loop i = 1 to n-1   |
++----------------------+
+        |
+        v
++----------------------+
+| If array[i] > max   |
++----------------------+
+        |
+        v
++----------------------+
+| Update max          |
++----------------------+
+        |
+        v
++----------------------+
+| Print max           |
++----------------------+
+        |
+        v
++----------------------+
+| End                 |
++----------------------+
+
+Would you like a graphical flowchart image for this?
